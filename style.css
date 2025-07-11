@@ -255,11 +255,17 @@ footer{
 .h3-logo1,.h3-logo{
   text-align: center;
 }
+.h3-logo1{
+  font-size: 20px;
+  font-weight: 600;
+}
 .footer-ul2{
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
   list-style: none;
+  font-size: 20px;
+  font-weight: 500;
 }
 ul li a{
   text-decoration: none;
@@ -283,8 +289,9 @@ ul li a{
 
 
 /* get free */
-.focus-better{
-  background-color: #f3f4ff75;
+
+.focus-better {
+  background-color: #1b2ad175;
   border-radius: 20px;
   padding: 60px 20px;
   text-align: center;
@@ -292,10 +299,19 @@ ul li a{
   max-width: 1100px;
 }
 
-.picture{
+.picture {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  
+  background-color: transparent; 
+}
+
+.focus-better {
+    
+  border-radius: 20px;
+  padding: 60px 20px;
+  text-align: center;
+  margin: 80px auto;
+  max-width: 1100px;
 }
 
