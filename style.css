@@ -193,3 +193,42 @@ hr{
   font-size: 15px;
   font-weight: 300;
 }
+
+/* lets style */
+.lets{
+  display: flex;
+  justify-content: center;
+  /* padding: 94px 150px; */
+  margin: 94px 150px;
+}
+.lets-get-h{
+  font-size: 97px;
+  font-weight: bold;
+}
+.nav-button-lets{
+  background-color: #4E47FF;
+  color: white; 
+  text-shadow:8px black;  
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 56px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+}
+.nav-button-lets:hover{
+  background-color: chartreuse;
+
+}
+
+.lets input[type="text"], input[type="email"],  textarea{
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  height: 70px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: none;
+
+}
