@@ -14,6 +14,18 @@
 }
 
 /* nav style */
+header,main{
+  background-color: #eef6ff;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  background-image: url(./Assets/Hero-bg.png);
+  /* width: 1440px;
+  height: 546px; */
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -29,15 +41,113 @@ nav{
     font-size: 34px;
 }
 .nav-button{
-    background-color: #4E47FF;
-    color: white;   
-    font-size: 16px;
-    font-weight: blod;
-    padding: 12px 56px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
+  background-color: #4E47FF;
+  color: white; 
+  text-shadow:8px black;  
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 56px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
 .nav-button:hover{
-    color: rgb(246, 6, 6);
+    background-color: rgb(246, 6, 6);
+}
+
+.cool-title{
+  text-align: center;
+  font-size: 65px;
+  font-weight: bold;
+}
+.button-stay{
+  display: flex;
+  justify-content: center;
+}
+.nav-button-stay{
+  background-color: #4E47FF;
+  color: white; 
+  text-shadow:8px black;  
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 56px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  
+}
+.nav-button-stay:hover{
+  color: rgb(98, 251, 10);
+}
+hr{
+  box-shadow: 10px;
+}
+/* action style */
+.action{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 268px;
+  padding-right: 159px;
+  padding-left: 141px;
+}
+.nav-button-launch{
+  background-color: #4E47FF;
+  color: white; 
+  text-shadow:8px black;  
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 56px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.nav-button-launch:hover{
+  background-color: aqua;
+}
+.action-sayit-h{
+  font-size: 42px;
+  font-weight: bold;
+}
+.action-sayit-p{
+  font-size: 24px;
+  font-weight: regular;
+}
+.wc-mini{
+  border-radius: 48px;
+}
+/* join style */
+.join{
+  background-color: #b4d6ee;
+  border-radius: 24px;
+  padding: 20px;
+  
+}
+.join-p{
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}
+.join-2{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.join-2-users-h{
+  color: #4E47FF;
+}
+.join-2-users{
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.join-2-users-p{
+  font-size: 20px;
+  font-weight: regular;
+  padding-bottom: 20px;
+}
+/* users say */
+.what{
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
 }
